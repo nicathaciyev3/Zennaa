@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../src/scss/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar menu -->
+ <nav>
+    <div class="navbar">
+        <i class='bx bx-menu'></i>
+        <div class="logo"><a href="#">ZENNA</a></div>
+        <div class="nav-links">
+            <div class="slidebar-logo">
+                <span class="logo_name">ZENNA</span>
+               <i class='bx bx-x' ></i> 
+            </div>
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Pages</a>
+                    <i class='bx bx-chevron-down arrow htmlcss-arrow'></i>
+                    <ul class="htmlCss-sub-menu sub-menu">
+                        <li><a href="../public/about.html">About us</a></li>
+                        <li><a href="../public/contact.html">Contact</a></li>
+                        <li><a href="#">F.A.Q</a></li>
+                        <li><a href="#">404</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Bloq</a>
+                    <i class='bx bx-chevron-down js-arrow'></i>
+                    <ul class="js-sub-menu sub-menu">
+                        <li><a href="#">STANDARD</a></li>
+                        <li><a href="#">SINGLE POST</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../public/shop.html">Shop</a>
+                    <i class='bx bx-chevron-down shop-arrow'></i>
+                   
+                </li>
+                <li>
+                    <a href="#">Elements</a>
+                    <i class='bx bx-chevron-down elements-arrow'></i>
+                    <ul class="elements-sub-menu sub-menu">
+                        <li><a href="#">STANDARD</a></li>
+                        <li><a href="#">SINGLE POST</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="search-box">
+            <i class='bx bx-search' ></i>
+            <div class="shop">
+                <i class='bx bx-shopping-bag' ></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Search...">
+                
+            </div>
+        </div>
+       
+    </div>
+ </nav>
+<main>
+    <!-- carusel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="../src/img/1.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+                <h1 class="display-1 fw-bolder text-capitalize">Great Fashion 2017</h1>
+                <p class="mt-5 fs-3 text-uppercase">-- New arriwals collection --</p>
+                <button class="btn btn-primary px-4 py-2fs-5 mt-5">Shop now</button>
+              </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="../src/img/2.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+                <h1 class="display-1 fw-bolder text-capitalize">Exclusive Products</h1>
+                <p class="mt-5 fs-3 text-uppercase">-- Git awesome Items only in Zenna online shop --</p>
+                <button class="btn btn-primary px-4 py-2fs-5 mt-5 btn-color">Buyn it now</button>
+                <button class="btn btn-primary px-4 py-2fs-5 mt-5">Lean more</button>
+              </div>
+        </div>
+          <div class="carousel-item c-item">
+            <img src="../src/img/3.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+                <h1 class="display-1 fw-bolder text-capitalize">Enjoy online shopping</h1>
+                <p class="mt-5 fs-3 text-uppercase">-- Zennan is perfectly responsive theme --</p>
+                <button class="btn btn-primary px-4 py-2fs-5 mt-5">Shop now</button>
+              </div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  
+      <section class="gallery min-vh-100">
+    <div class="container-lg">
+        <div class="row gy-4 row-cols-1 row-cols-sm-3 row-cols-md-3">
+            <div class="col">
+                <img src="../src/img/collection_1.jpg" alt="gallery" class="gallery_item">
+            </div>
+            <div class="col">
+                <img src="../src/img/collection_2.jpg" alt="gallery" class="gallery_item">
+            </div>
+            <div class="col">
+                <img src="../src/img/collection_3.jpg" alt="gallery" class="gallery_item">
+           
+            </div>
+        </div>
+    </div>
+   </section>
+  
+   <div class="wrapper">
+    <div class="container-lg">
+        <div class="text-imgs">
+            <p>Hot items of this years
+            </p>
+            <h1>TRENDY PRODUCTS</h1>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="images" id="item1">
+                <img src="../src/img/img1.jpg.jpg" alt="">
+                <div class="contents">
+                    <p>Women</p>
+                    <h1>Drawsitnd Dress</h1>
+                    <span>$344</span>
+                    <button onclick="addToCart (item1)">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="images" id="item2">
+                <img src="../src/img/shop_item_2.jpg" alt="">
+                <div class="contents">
+                    <p>Women</p>
+                    <h1>Drawsitnd Dress</h1>
+                    <span>$344</span>
+                    <button onclick="addToCart (item2)">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="images" id="item3">
+                <img src="../src/img/img3.jpg.jpg" alt="">
+                <div class="contents">
+                    <p>Women</p>
+                    <h1>Drawsitnd Dress</h1>
+                    <span>$344</span>
+                    <button onclick="addToCart (item3)">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="images" id="item4">
+                <img src="../src/img/shop_item_4.jpg" alt="">
+                <div class="contents">
+                    <p>Women</p>
+                    <h1>Drawsitnd Dress</h1>
+                    <span>$344</span>
+                    <button onclick="addToCart (item4)">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="images">
+                <img src="../src/img/shop_item_5.jpg" alt="">
+                <div class="contents">
+                    <p>Women</p>
+                    <h1>Drawsitnd Dress</h1>
+                    <span>$344</span>
+                    <button onclick="addToCart (item1)">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="images">
+                <img src="../src/img/shop_item_6.jpg" alt="">
+                <div class="contents">
+                    <p>Women</p>
+                    <h1>Drawsitnd Dress</h1>
+                    <span>$344</span>
+                    <button onclick="addToCart (item1)">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="images">
+                <img src="../src/img/shop_item_7.jpg" alt="">
+                <div class="contents">
+                    <p>Women</p>
+                    <h1>Drawsitnd Dress</h1>
+                    <span>$344</span>
+                    <button onclick="addToCart (item1)">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="images">
+                <img src="../src/img/shop_item_8.jpg" alt="">
+                <div class="contents">
+                    <p>Women</p>
+                    <h1>Drawsitnd Dress</h1>
+                    <span>$344</span>
+                    <button onclick="addToCart (item1)">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    </div>
+  
+   <div id="carouselExampleIndicators " class="carousel slide carusel_two">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active c-item">
+        <img src="../src/img/testimonial_bg.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+            <h1 class="display-1 fw-bolder text-capitalize">Happy clients</h1>
+            <p class="mt-5  text-uppercase">-- I’am amazed, I should say thank you so much for your awesome template. Design is so good and neat, every detail has been taken care these team are realy amazing and talented! I will work only with this agency. --</p>
+          </div>
+      </div>
+      <div class="carousel-item c-item">
+        <img src="../src/img/testimonial_bg.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+            <h1 class="display-1 fw-bolder text-capitalize">Exclusive Products</h1>
+            <p class="mt-5 fs-3 text-uppercase">-- Git awesome Items only in Zenna online shop --</p>
+            <button class="btn btn-primary px-4 py-2fs-5 mt-5 btn-color">Buyn it now</button>
+            <button class="btn btn-primary px-4 py-2fs-5 mt-5">Lean more</button>
+          </div>
+    </div>
+      <div class="carousel-item c-item">
+        <img src="../src/img/3.jpg" class="d-block w-100 c-img" alt="...">
+        <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+            <h1 class="display-1 fw-bolder text-capitalize">Enjoy online shopping</h1>
+            <p class="mt-5 fs-3 text-uppercase">-- Zennan is perfectly responsive theme --</p>
+            <button class="btn btn-primary px-4 py-2fs-5 mt-5">Shop now</button>
+          </div>
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+   
+  <div class="container">
+     <div class="filter_buttons">
+      <button class="active" data-name="all">Show all</button>
+      <button data-name="saatlar">Saat</button>
+      <button data-name="Sumkalar">Sumka</button>
+      <button data-name="Destler">Dest</button>
+     </div>
+     <div class="filterable_cards">
+      <div class="card_filter" data-name="saatlar">
+        <img src="../src/img/saat2.jpg" alt="saat">
+        <div class="card_body">
+          <h6 class="card_title">Saat</h6>
+          <p class="card_text">Lorem, ipsum dolor...</p>
+        </div>
+      </div>
+      <div class="card_filter" data-name="saatlar">
+        <img src="../src/img/img6.jpg.jpg" alt="saat">
+        <div class="card_body">
+          <h6 class="card_title">Saat</h6>
+          <p class="card_text">Lorem, ipsum dolor...</p>
+        </div>
+      </div>
+      <div class="card_filter" data-name="Destler">
+        <img src="../src/img/CxQYguHWgAA-UYH.jpg" alt="dest">
+        <div class="card_body">
+          <h6 class="card_title">Destler</h6>
+          <p class="card_text">Lorem, ipsum dolor...</p>
+        </div>
+      </div>
+      <div class="card_filter" data-name="Sumkalar">
+        <img src="../src/img/img4.jpg.webp" alt="sumka">
+        <div class="card_body">
+          <h6 class="card_title">Sumka</h6>
+          <p class="card_text">Lorem, ipsum dolor...</p>
+        </div>
+      </div>
+      <div class="card_filter" data-name="Sumkalar">
+        <img src="../src/img/sumkalar.jpg" alt="sumka">
+        <div class="card_body">
+          <h6 class="card_title">Sumka</h6>
+          <p class="card_text">Lorem, ipsum dolor...</p>
+        </div>
+      </div>
+      <div class="card_filter" data-name="Sumkalar">
+        <img src="../src/img/sumklara2.webp" alt="sumka">
+        <div class="card_body">
+          <h6 class="card_title">sumka</h6>
+          <p class="card_text">Lorem, ipsum dolor...</p>
+        </div>
+      </div>
+     </div>
+    </div>
+   
+   <div class="offers">
+    <div class="container-lg">
+      <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-4">
+        <div class="col-lg-3">
+          <h2>SPECIAL OFFER</h2>
+          <div class="text_cards">
+            <img src="../src/img/shop_item_1.jpg" alt="">
+            <div class="text">
+              <h6>Skinny dress</h6>
+              <del>139$</del>
+              <p>120$</p>
+            </div>
+          </div>
+          <div class="text_cards">
+            <img src="../src/img/a.jpg" alt="">
+            <div class="text">
+              <h6>Skinny dress</h6>
+              <del>139$</del>
+              <p>120$</p>
+            </div>
+          </div>
+          <div class="text_cards">
+            <img src="../src/img/b.jpg" alt="">
+            <div class="text">
+              <h6>Skinny dress</h6>
+              <del>139$</del>
+              <p>120$</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <h2>BESTSELLERS</h2>
+          <div class="text_cards">
+            <img src="../src/img/k.jpg" alt="">
+            <div class="text">
+              <h6>Skinny dress</h6>
+              <del>139$</del>
+              <p>120$</p>
+            </div>
+          </div>
+          <div class="text_cards">
+            <img src="../src/img/h.jpg" alt="">
+            <div class="text">
+              <h6>Skinny dress</h6>
+              <del>139$</del>
+              <p>120$</p>
+            </div>
+          </div>
+          <div class="text_cards">
+            <img src="../src/img/kl.jpg" alt="">
+            <div class="text">
+              <h6>Skinny dress</h6>
+              <del>139$</del>
+              <p>120$</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <h2>ACCESSORIES</h2>
+          <div class="text_cards">
+            <img src="../src/img/shop_item_5.jpg" alt="">
+            <div class="text">
+              <h6>Skinny dress</h6>
+              <del>139$</del>
+              <p>120$</p>
+            </div>
+          </div>
+          <div class="text_cards">
+            <img src="../src/img/shop_item_7.jpg" alt="">
+            <div class="text">
+              <h6>Skinny dress</h6>
+              <del>139$</del>
+              <p>120$</p>
+            </div>
+          </div>
+          <div class="text_cards">
+            <img src="../src/img/shop_item_8.jpg" alt="">
+            <div class="text">
+              <h6>Skinny dress</h6>
+              <del>139$</del>
+              <p>120$</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <h2>TOP RATED</h2>
+          <div class="text_cards">
+            <img src="../src/img/shop_item_4.jpg" alt="">
+            <div class="text">
+              <h6>Skinny dress</h6>
+              <del>139$</del>
+              <p>120$</p>
+            </div>
+          </div>
+          <div class="text_cards">
+            <img src="../src/img/shop_item_6.jpg" alt="">
+            <div class="text">
+              <h6>Skinny dress</h6>
+              <del>139$</del>
+              <p>120$</p>
+            </div>
+          </div>
+          <div class="text_cards">
+            <img src="../src/img/p.jpg" alt="">
+            <div class="text">
+              <h6>Skinny dress</h6>
+              <del>139$</del>
+              <p>120$</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div> 
+   <div class="newsletter" id="subscribe">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h4>Get the latest updates</h4>
+          <form class="relative newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Enter your email">
+            <input type="submit" class="btn btn-lg btn-dark newsletter-submit" value="Subscribe">
+          </form>
+        </div>
+      </div>
+    </div>       
+  </div>
+</main>
+   <footer class="bg-ligh text-dark pt-5 pb-4">
+    <div class="container text-center text-md-left">
+     <div class="row text-center text-md-left">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-inf">ZENNA</h5>
+        <hr class="mb-4">
+        <p>Zenna Shop is a very slick and clean eCommerce template.</p>
+       <div class="icons_footer">
+        <i class="bi bi-twitter"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-google"></i>
+       </div>
+      </div>
+       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-inf">Information</h5>
+        <hr class="4">
+        <p>
+          <a href="#" class="text-dark" style="text-decoration:none">Our stores</a>
+        </p>
+        <p>
+          <a href="#" class="text-dark" style="text-decoration:none">About us</a>
+        </p>
+        <p>
+          <a href="#" class="text-dark" style="text-decoration:none">Business with us</a>
+        </p>
+        <p>
+          <a href="#" class="text-dark" style="text-decoration:none">Delivery information</a>
+        </p>
+       </div>
+       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-inf">Account
+        </h5>
+        <hr class="mb-4">
+        <p>
+          <a href="#" class="text-dark" style="text-decoration:none">My account</a>
+        </p>
+        <p>
+          <a href="#" class="text-dark" style="text-decoration:none">Wishlist</a>
+        </p>
+        <p>
+          <a href="#" class="text-dark" style="text-decoration:none">Order history</a>
+        </p>
+        <p>
+          <a href="#" class="text-dark" style="text-decoration:none">Specials</a>
+        </p>
+       </div>
+       <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-inf">Useful Links</h5>
+        <hr class="mb-4">
+        <p>
+          <a href="#" class="text-dark" style="text-decoration:none">Shipping Policy</a>
+        </p>
+        <p>
+          <a href="#" class="text-dark" style="text-decoration:none">Stores</a>
+        </p>
+        <p>
+          <a href="#" class="text-dark" style="text-decoration:none">Returns</a>
+        </p>
+        <p>
+          <a href="#" class="text-dark" style="text-decoration:none">Terms & Conditions</a>
+        </p>
+       </div>
+       <hr class="mb-4">
+       
+       <div class="row d-flex justify-content-center">
+        <div >
+          <p>© 2023 Zenna | Made by DeoThemes</p>
+        </div>
+       </div>
+       <div class="row d-flex justify-content-center">
+        <div class="text-center">
+          <ul class="list-unstyled list-inline">
+            <li class="list-inline-item">
+              <a href="#" class="text-dark"><i class='bx bxl-paypal' ></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-dark"><i class='bx bxl-visa' ></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-dark"><i class='bx bxl-mastercard' ></i></a>
+            </li>
+          </ul>
+        </div>
+       </div>
+     </div>
+    </div>
+   </footer>
+ 
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script src="../public/js/navbar.js"></script>
+<script src="../public/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script>
+    var addItemId = 0;
+function addToCart (item) {
+    addItemId += 1;
+    var selectedItem = document.createElement ('div');
+    selectedItem.classList.add('cartImg');
+    selectedItem.setAttribute('id', addItemId);
+    var img = document.createElement('img');
+    img.setAttribute('src',item.children[0].currentSrc);
+    var title = document.createElement('div');
+    title.innerText = item.children[1].innerText;
+    var delBtn = document.createElement('button');
+    delBtn.innerText = "delete";
+    delBtn.setAttribute('onclick', 'del('+addItemId+')');
+    var cartItems = document.getElementById('title');
+    selectedItem.append(delBtn);
+    selectedItem.append(img);
+    cartItems.append(selectedItem);
+}
+
+function del (item) {
+    document.getElementById(item).remove();
+}
+</script>
+</body>
+</html>
